@@ -4,21 +4,27 @@ export const SectionEight = () => {
     return (
         <section className="section eight" >
             <div className="eight-content" >
-                <div className="eight-content-text" >
-                    <h1 className="eight-main" >The finish line awaits</h1>
-                    <p className="eight-description" >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                </div>
-                <div className="eight-right" >
-                    <div className="eight-data" >
-                        <div className="eight-button" >
-                            <h1 className="eight-button-text" >Buy challange</h1>
-                        </div>
-                        <div className="eight-button" >
-                            <h1 className="eight-button-text" >Alpinedge resort</h1>
+                <div className="eight-content-row" >
+                    <div className="eight-right" >
+                        <h1 className="eight-right-main" >Escucha nuestras voces:</h1>
+                        <iframe className="spotify-iframe" frameBorder="0" src="https://open.spotify.com/embed/episode/113I8NcEuMOh9j1MkVkd8x?utm_source=generator&theme=0"  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <iframe className="spotify-iframe" frameBorder="0" src="https://open.spotify.com/embed/episode/5M8xMZwfz7Y28PlsunmDoG?utm_source=generator&theme=0"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <h1 className="eight-right-description" >Migrantas en Reconquista es un símbolo de unidad y empoderamiento para las mujeres de la comunidad, inspirándolas a seguir adelante en su lucha por un futuro sostenible mejor.</h1>
+                    </div>
+                    <div className="eight-left" >
+                        <img src="/photo6.png" alt="" />
+                        <div className="eight-socials" >
+                            <a href="https://www.facebook.com/migrantasenreconquista" target="_blank" ><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/migrantasreconquista/?hl=es" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/@migrantasenreconquista1686" target="_blank" ><i class="fa-brands fa-youtube"></i></a>
                         </div>
                     </div>
+                </div>
+                <div className="eight-content-bottom" >
+                    <img className="content-logo" src="/voces.png" alt="" />
+                    <img className="content-logo" src="/migrantas1.png" alt="" />
+                    <a href="https://idrc-crdi.ca/es" target="_blank" ><img className="content-logo" src="/canada.png" alt="" /></a>
+                    <a href="https://latinclima.org/" target="_blank" ><img className="content-logo" src="/latin.png" alt="" /></a>
                 </div>
             </div>
         </section>

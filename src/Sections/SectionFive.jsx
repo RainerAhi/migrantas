@@ -18,7 +18,7 @@ export const SectionFive = () => {
                 <div className="five-center" >
                     <h1 className="five-main-big" >Conocé más sobre el contexto que dio origen al proyecto:</h1>
                     <div className="video-container">
-                        <YouTube className="video" videoId="https://www.youtube.com/watch?v=Nz7K3Plole0" />
+                        <YouTube className="video" videoId="Nz7K3Plole0" />
                     </div>
                     <h1 className="five-main-green" >La iniciativa que nace en el 2022, se enfoca en las intersecciones entre los siguientes temas:</h1>
                     <div className="five-circles" >

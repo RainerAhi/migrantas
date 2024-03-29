@@ -54,7 +54,6 @@ function App() {
             <SectionSix />
             <SectionSeven />
             <SectionEight />
-            <SectionNine />
             
       </>
     )
