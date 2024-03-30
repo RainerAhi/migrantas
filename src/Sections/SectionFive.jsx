@@ -9,10 +9,10 @@ export const SectionFive = () => {
                 <div className="five-top" >
                     <div className="five-top-right" >
                         <h1 className="five-main" >Un día, Zulma y personas de la Universidad Nacional de San Martín se ponen en contacto, y con el apoyo del IDRC, en conjunto constituyen:</h1>
-                        <img src="/five-logo.png" />
+                        <img className="five-logo" src="/five-logo.png" />
                     </div>
                     <div className="five-top-left" >
-                        <img src="/photo4.png" />
+                        <img className="photo4" src="/photo4.png" />
                     </div>
                 </div>
                 <div className="five-center" >

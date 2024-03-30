@@ -35,7 +35,6 @@ export const SectionSix = () => {
                 <h1 className="list-number">15</h1>
               </div>
               <h1 className="list-description">
-                {" "}
                 docentes de la UNSAM y 15 organizaciones del territorio
                 involucradas
               </h1>

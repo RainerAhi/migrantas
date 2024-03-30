@@ -12,7 +12,7 @@ export const SectionEight = () => {
                         <h1 className="eight-right-description" >Migrantas en Reconquista es un símbolo de unidad y empoderamiento para las mujeres de la comunidad, inspirándolas a seguir adelante en su lucha por un futuro sostenible mejor.</h1>
                     </div>
                     <div className="eight-left" >
-                        <img src="/photo6.png" alt="" />
+                        <img className="photo6" src="/photo6.png" alt="" />
                         <div className="eight-socials" >
                             <a href="https://www.facebook.com/migrantasenreconquista" target="_blank" ><i class="fa-brands fa-facebook"></i></a>
                             <a href="https://www.instagram.com/migrantasreconquista/?hl=es" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
