@@ -1995,7 +1995,7 @@ i {
 .six-content-top-main {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: normal;
   color: #fefeff;
   text-align: center;
@@ -2029,7 +2029,7 @@ i {
 .list-number {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: normal;
   color: #fefeff;
 }
@@ -2037,7 +2037,7 @@ i {
 .list-description {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.15rem;
   line-height: normal;
   color: #fefeff;
   text-align: center;
