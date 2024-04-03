@@ -8,9 +8,9 @@ export const SectionSix = () => {
   ];
 
   const newSources = [
-    "https://www.instagram.com/p/Cfe6BUgoYkd/embed/",
-    "https://www.instagram.com/p/Cfe6BUgoYkd/embed/",
-    "https://www.instagram.com/p/Cfe6BUgoYkd/embed/"
+    "https://www.instagram.com/p/C0e15iZuEVw/embed/",
+    "https://www.instagram.com/p/C0SE9SPAlNf/embed/",
+    "https://www.instagram.com/p/CqrBzaBv00b/embed/"
   ];
 
   const [iframeSources, setIframeSources] = useState(originalSources);

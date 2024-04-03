@@ -160,6 +160,27 @@ export default function Animations() {
                             },
                           })
 
+                          .to(".photo6", {
+                            width: "100%",
+                              scrollTrigger: {
+                                trigger: ".eight-content",
+                                start: isMobile ? "top bottom" : "top bottom",
+                                end: "bottom top",
+                                scrub: true,
+                                immediateRender: false,
+                              },
+                            })
+
+                            .to(".eight-right-main", {
+                              fontSize: "3rem",
+                                scrollTrigger: {
+                                  trigger: ".eight",
+                                  start: isMobile ? "top bottom" : "top bottom",
+                                  end: "bottom top",
+                                  scrub: true,
+                                  immediateRender: false,
+                                },
+                              })
     
     })
   }, [])
