@@ -120,7 +120,7 @@ export default function Animations() {
                     width: isMobile ? "90%" : "80%",
                       scrollTrigger: {
                         trigger: ".four-content",
-                        start: "top bottom-=2250",
+                        start: "top bottom-=1750",
                         end: "bottom top",
                         scrub: true,
                         immediateRender: false,
@@ -131,7 +131,7 @@ export default function Animations() {
                       opacity: 1,
                         scrollTrigger: {
                           trigger: ".five-content",
-                          start: isMobile ? "top bottom-=2500" : "top bottom-=3000",
+                          start: isMobile ? "top bottom-=2000" : "top bottom-=2500",
                           end: "bottom top",
                           scrub: true,
                           immediateRender: false,
@@ -142,7 +142,7 @@ export default function Animations() {
                         width: "75%",
                           scrollTrigger: {
                             trigger: ".five-content",
-                            start: isMobile ? "top bottom-=2500" : "top bottom-=3000",
+                            start: isMobile ? "top bottom-=2500" : "top bottom-=2500",
                             end: "bottom top",
                             scrub: true,
                             immediateRender: false,

@@ -12,7 +12,7 @@ export const SectionThree = () => {
             </div>
             <div className="three-green-two" >
                 <img src="/cloud.svg" className="cloud" />
-                <h1 className="three-box-text-small" >El CEAMSE es uno de los rellenos sanitarios que emite mayor concentración de gas metano en el mundo</h1>
+                <h1 className="three-box-text-small" >El CEAMSE es uno de los rellenos sanitarios que emite mayor concentración de gas metano en el mundo.</h1>
             </div>
           </div>
           <div className="three-bottom" >

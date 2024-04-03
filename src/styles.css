@@ -82,7 +82,7 @@ body,
   margin-top: 0%;
   flex-direction: row;
   margin-left: 0%;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -111,15 +111,17 @@ body,
 .greenbox-text {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: normal;
   color: #fefeff;
-  text-align: center;
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .medium {
   font-weight: 400;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 .map {
@@ -182,10 +184,12 @@ body,
 .yellowbox-text {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: normal;
   color: #111111;
-  text-align: center;
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .content-two-bottom {
@@ -216,11 +220,12 @@ body,
 .orangebox-text {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: normal;
   color: #fefeff;
-  text-align: center;
-  margin-left: 10%;
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 5%;
 }
 
 .sil {
@@ -284,7 +289,7 @@ body,
 .three-box-text {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: normal;
   color: #fefeff;
   margin-left: 10%;
@@ -312,7 +317,7 @@ body,
 .three-box-text-small {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: normal;
   color: #fefeff;
   margin-left: 10%;
@@ -333,13 +338,13 @@ body,
   display: flex;
   flex-direction: column;
   margin-left: 5%;
-  width: 50%;
+  width: 80%;
 }
 
 .three-bottom-text {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: normal;
   color: #111111;
 }
@@ -387,7 +392,7 @@ body,
 .four-main-top {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-size: 2.25rem;
+  font-size: 1.75rem;
   line-height: normal;
   color: #557c2e;
   width: 50%;
@@ -402,7 +407,7 @@ body,
 .four-main {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: normal;
   color: #fefeff;
 }
@@ -447,7 +452,7 @@ body,
 .four-textbox-text {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: normal;
   color: #557c2e;
   margin-left: 10%;
@@ -521,12 +526,17 @@ body,
 
 .five-top-right {
   width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+
 
 .five-main {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: normal;
   color: #111111;
 }
@@ -544,10 +554,12 @@ body,
 .five-main-big {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: normal;
   color: #557c2e;
   text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .video-container {
@@ -564,7 +576,7 @@ body,
 .five-main-green {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 1.75rem;
   line-height: normal;
   color: #557c2e;
   text-align: center;
@@ -600,7 +612,7 @@ body,
 .circle-text {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 1.75rem;
   line-height: normal;
   color: #fefeff;
   text-align: center;
@@ -631,7 +643,7 @@ body,
 .five-bottom-main-text {
   font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-size: 3.5rem;
+  font-size: 2.8rem;
   line-height: 2.25rem;
   color: #111111;
   margin-bottom: 0;
@@ -640,7 +652,7 @@ body,
 .five-bottom-purple {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: normal;
   color: #604d91;
 }
@@ -648,8 +660,8 @@ body,
 .five-description {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 2rem;
-  line-height: 2.25rem;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
   color: #111111;
   margin-top: 0;
 }
@@ -657,8 +669,8 @@ body,
 .five-small {
   font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-size: 1.25rem;
-  line-height: 2.25rem;
+  font-size: 1rem;
+  line-height: 0rem;
   color: #111111;
 }
 
@@ -692,7 +704,7 @@ body,
   margin-top: 10%;
   font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   line-height: normal;
   color: #557c2e;
   text-align: center;
@@ -739,7 +751,7 @@ body,
 .six-green-box-text {
   font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: normal;
   text-align: center;
   color: #fefeff;
@@ -776,6 +788,10 @@ body,
   font-size: 1rem;
   line-height: normal;
   color: #557c2e;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* SECTION SIX  */
@@ -822,7 +838,7 @@ body,
 .six-content-top-main {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.75rem;
   line-height: normal;
   color: #fefeff;
 }
@@ -863,7 +879,7 @@ body,
 .list-description {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: normal;
   color: #fefeff;
   text-align: center;
@@ -904,13 +920,13 @@ body,
   cursor: pointer;
   background-color: #4c2884;
   color: #fefeff;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .map-text {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   line-height: normal;
   color: #557c2e;
   text-align: center;
@@ -944,7 +960,7 @@ body,
 .map-text-description {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   line-height: normal;
   color: #111111;
   margin-left: 5%;
@@ -968,7 +984,7 @@ body,
 .download-button-text {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   line-height: normal;
   color: #fefeff;
 }
@@ -1005,7 +1021,7 @@ body,
 .seven-main {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   line-height: normal;
   color: #fefeff;
 }
@@ -1043,7 +1059,7 @@ body,
 .paper-text-big {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   line-height: normal;
   color: #111111;
   z-index: 10;
@@ -1053,7 +1069,7 @@ body,
 .paper-text-small {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   line-height: normal;
   color: #111111;
   z-index: 10;
@@ -1111,7 +1127,7 @@ body,
 .eight-right-main {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: normal;
   color: #557c2e;
 }
@@ -1120,6 +1136,12 @@ body,
   display: flex;
   flex-direction: column;
   width: 50%;
+  height: auto;
+  position: relative;
+}
+
+.photo6 {
+  height: 90%;
 }
 
 .spotify-iframe {
@@ -1130,7 +1152,7 @@ body,
 .eight-right-description {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: normal;
   color: #4c2884;
 }
@@ -1143,6 +1165,7 @@ body,
 
 i {
   font-size: 50px;
+  color: #557c2e;
 }
 
 .eight-content-bottom {
