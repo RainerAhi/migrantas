@@ -115,6 +115,28 @@ export default function Animations() {
                     },
                   })
 
+                  .to(".four-image", {
+                    width: "40%",
+                      scrollTrigger: {
+                        trigger: ".four",
+                        start: "top bottom",
+                        end: "bottom top",
+                        scrub: true,
+                        immediateRender: false,
+                      },
+                    })
+
+                    .to(".four-main-top", {
+                      fontSize: isMobile ? "1.25rem" : "2rem",
+                        scrollTrigger: {
+                          trigger: ".four",
+                          start: "top bottom",
+                          end: "bottom top",
+                          scrub: true,
+                          immediateRender: false,
+                        },
+                      })
+
                   .to(".five-top", {
                     opacity: 1,
                     width: isMobile ? "90%" : "80%",
@@ -138,6 +160,75 @@ export default function Animations() {
                         },
                       })
 
+                      .to(".five-main-big", {
+                        fontSize: isMobile ? "1.25rem" : "2.25rem",
+                          scrollTrigger: {
+                            trigger: ".five-content",
+                            start: "top center",
+                            end: "bottom top",
+                            scrub: true,
+                            immediateRender: false,
+                          },
+                        })
+
+                        .to(".video-container", {
+                          width: "80%",
+                            scrollTrigger: {
+                              trigger: ".five-content",
+                              start: "top center",
+                              end: "bottom top",
+                              scrub: true,
+                              immediateRender: false,
+                            },
+                          })
+
+                          .to(".circle-text", {
+                            fontSize: isMobile ? "0.5rem" : "2rem",
+                              scrollTrigger: {
+                                trigger: ".five-content",
+                                start: "top top",
+                                end: "bottom top",
+                                scrub: true,
+                                immediateRender: false,
+                              },
+                            })
+
+                            .to(".circle-one", {
+                              width: isMobile ? "100px" : "300px",
+                              height: isMobile ? "100px" : "300px",
+                                scrollTrigger: {
+                                  trigger: ".five-content",
+                                  start: "top top",
+                                  end: "bottom top",
+                                  scrub: true,
+                                  immediateRender: false,
+                                },
+                              })
+
+                              .to(".circle-two", {
+                                width: isMobile ? "100px" : "300px",
+                                height: isMobile ? "100px" : "300px",
+                                  scrollTrigger: {
+                                    trigger: ".five-content",
+                                    start: "top top",
+                                    end: "bottom top",
+                                    scrub: true,
+                                    immediateRender: false,
+                                  },
+                                })
+
+                                
+                              .to(".five-girls", {
+                                width: "100%",
+                                  scrollTrigger: {
+                                    trigger: ".five-content",
+                                    start: "top top",
+                                    end: "bottom top",
+                                    scrub: true,
+                                    immediateRender: false,
+                                  },
+                                })
+
                       .to(".six-top-photo", {
                         width: "75%",
                           scrollTrigger: {
@@ -149,6 +240,29 @@ export default function Animations() {
                           },
                         })
 
+                        .to(".six-main-green", {
+                          fontSize: isMobile ? "1.5rem" : "2.25rem",
+                            scrollTrigger: {
+                              trigger: ".five-content",
+                              start: isMobile ? "top bottom-=2500" : "top bottom-=2500",
+                              end: "bottom top",
+                              scrub: true,
+                              immediateRender: false,
+                            },
+                          })
+
+                          
+                        .to(".map-background-image", {
+                          width: "90%",
+                            scrollTrigger: {
+                              trigger: ".six-content",
+                              start: "top bottom",
+                              end: "bottom top",
+                              scrub: true,
+                              immediateRender: false,
+                            },
+                          })
+
                         .to(".seven-content", {
                           opacity: 1,
                             scrollTrigger: {
@@ -159,6 +273,17 @@ export default function Animations() {
                               immediateRender: false,
                             },
                           })
+
+                          .to(".seven-main", {
+                            fontSize: "2.25rem",
+                              scrollTrigger: {
+                                trigger: ".seven-content",
+                                start: isMobile ? "top bottom+=500" : "top bottom+=500",
+                                end: "bottom top",
+                                scrub: true,
+                                immediateRender: false,
+                              },
+                            })
 
                           .to(".photo6", {
                             width: "100%",
@@ -172,7 +297,7 @@ export default function Animations() {
                             })
 
                             .to(".eight-right-main", {
-                              fontSize: "3rem",
+                              fontSize: isMobile ? "2rem" : "3rem",
                                 scrollTrigger: {
                                   trigger: ".eight",
                                   start: isMobile ? "top bottom" : "top bottom",
