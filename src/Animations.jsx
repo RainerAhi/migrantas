@@ -108,7 +108,7 @@ export default function Animations() {
                   opacity: 1,
                     scrollTrigger: {
                       trigger: ".three-content",
-                      start: "top bottom-=1000",
+                      start: "top bottom-=900",
                       end: "bottom top",
                       scrub: true,
                       immediateRender: false,
@@ -142,7 +142,7 @@ export default function Animations() {
                     width: isMobile ? "90%" : "80%",
                       scrollTrigger: {
                         trigger: ".four-content",
-                        start: "top bottom-=1750",
+                        start: "top bottom-=1575",
                         end: "bottom top",
                         scrub: true,
                         immediateRender: false,
@@ -153,7 +153,7 @@ export default function Animations() {
                       opacity: 1,
                         scrollTrigger: {
                           trigger: ".five-content",
-                          start: isMobile ? "top bottom-=2000" : "top bottom-=2500",
+                          start: isMobile ? "top bottom-=2000" : "top bottom-=2300",
                           end: "bottom top",
                           scrub: true,
                           immediateRender: false,
@@ -161,7 +161,7 @@ export default function Animations() {
                       })
 
                       .to(".five-main-big", {
-                        fontSize: isMobile ? "1.25rem" : "2.25rem",
+                        fontSize: isMobile ? "1.25rem" : "2rem",
                           scrollTrigger: {
                             trigger: ".five-content",
                             start: "top center",
@@ -194,8 +194,8 @@ export default function Animations() {
                             })
 
                             .to(".circle-one", {
-                              width: isMobile ? "100px" : "300px",
-                              height: isMobile ? "100px" : "300px",
+                              width: isMobile ? "100px" : "250px",
+                              height: isMobile ? "100px" : "250px",
                                 scrollTrigger: {
                                   trigger: ".five-content",
                                   start: "top top",
@@ -206,8 +206,8 @@ export default function Animations() {
                               })
 
                               .to(".circle-two", {
-                                width: isMobile ? "100px" : "300px",
-                                height: isMobile ? "100px" : "300px",
+                                width: isMobile ? "100px" : "250px",
+                                height: isMobile ? "100px" : "250px",
                                   scrollTrigger: {
                                     trigger: ".five-content",
                                     start: "top top",
@@ -233,7 +233,7 @@ export default function Animations() {
                         width: "75%",
                           scrollTrigger: {
                             trigger: ".five-content",
-                            start: isMobile ? "top bottom-=2500" : "top bottom-=2500",
+                            start: isMobile ? "top bottom-=2250" : "top bottom-=2250",
                             end: "bottom top",
                             scrub: true,
                             immediateRender: false,

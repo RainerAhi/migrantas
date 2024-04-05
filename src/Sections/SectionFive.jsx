@@ -52,6 +52,7 @@ export const SectionFive = () => {
                     </div>
                 </div>
             </div>
+            <div className="content-six-background-absolute" />
             <div className="content-six" >
                 <h1 className="six-main-green" > Uno de sus principales hitos, ha sido el desarrollo y la implementación de la</h1>
                 <div className="six-top" >

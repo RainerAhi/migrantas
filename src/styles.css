@@ -100,8 +100,8 @@ body,
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 40%;
-  height: 50%;
+  width: 45%;
+  height: 55vh;
 }
 
 .flag {
@@ -212,8 +212,8 @@ body,
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 50%;
-  height: 40vh;
+  width: 55%;
+  height: 45vh;
   margin-top: 10vh;
 }
 
@@ -442,6 +442,7 @@ body,
   background-image: url('/white-box1.png'); 
   background-size: contain; 
   background-repeat: no-repeat; 
+  background-position: center;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -488,7 +489,7 @@ body,
 /* SECTION FIVE */
 
 .five {
-  height: 400vh;
+  height: auto;
   background-color: #111010;
   display: flex;
   flex-direction: column;
@@ -503,7 +504,7 @@ body,
   display: flex;
   flex-direction: column;
   width: 80%;
-  height: 320vh;
+  height: auto;
   z-index: 3;
 }
 
@@ -560,6 +561,7 @@ body,
   text-align: center;
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 5%;
 }
 
 .video-container {
@@ -580,6 +582,7 @@ body,
   line-height: normal;
   color: #557c2e;
   text-align: center;
+  margin-top: 5%;
 }
 
 .five-circles {
@@ -694,10 +697,17 @@ body,
   width: 100%;
   height: 115vh;
   z-index: 4;
-  margin-top: 0%;
+  position: relative;
+}
+
+.content-six-background-absolute {
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 10.75%;
+  z-index: 1;
+  width: 79.25%;
+  height: 125vh;
+  background-color: #dededf;
 }
 
 .six-main-green {
@@ -708,7 +718,7 @@ body,
   line-height: normal;
   color: #557c2e;
   text-align: center;
-  width: 40%;
+  width: 100%;
   align-self: center;
   opacity: 0;
 }
@@ -751,7 +761,7 @@ body,
 .six-green-box-text {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: normal;
   text-align: left;
   color: #fefeff;
@@ -761,11 +771,11 @@ body,
 
 .six-green-outline-box {
   background-image: url('/think-box.svg'); 
-  background-size: cover; 
+  background-size: contain; 
   background-repeat: no-repeat; 
-  width: 50%;
-  margin-left: 20%;
-  height: 20vh;
+  width: 70%;
+  margin-left: 15%;
+  height: 30vh;
   display: flex;
   align-items: center;
   align-self: center;
@@ -827,7 +837,7 @@ a {
 
 .six-content-top {
   width: 90%;
-  height: 50vh;
+  height: 55vh;
   border-radius: 50px;
   background-color: #4c2884;
   display: flex;
@@ -948,11 +958,11 @@ a {
 }
 
 .map-text-box {
-  width: 55%;
+  width: 60%;
   height: 65vh;
   background-color: #f69a34;
   z-index: 10;
-  margin-left: 15%;
+  margin-left: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -961,7 +971,7 @@ a {
 .map-text-description {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   line-height: normal;
   color: #111111;
   margin-left: 5%;
@@ -972,8 +982,8 @@ a {
 }
 
 .map-download-button {
-  width: 200px;
-  height: 60px;
+  width: 25%;
+  height: auto;
   border-radius: 50px;
   background-color:#111111;
   margin-left: 5%;
@@ -985,7 +995,7 @@ a {
 .download-button-text {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: normal;
   color: #fefeff;
 }
@@ -1053,7 +1063,7 @@ a {
 
 .paper-box {
   width: 100%;
-  height: 50vh;
+  height: 70vh;
   position: absolute;
 }
 
@@ -1110,11 +1120,12 @@ a {
   flex-direction: column;
   width: 80%;
   height: 100%;
+  justify-content: space-between;
 }
 
 .eight-content-row {
   width: 100%;
-  height: 75vh;
+  height: 80vh;
   display: flex;
   flex-direction: row;
 }
@@ -1122,7 +1133,9 @@ a {
 .eight-right {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 50%;
+  height: 100%;
 }
 
 .eight-right-main {
@@ -1137,7 +1150,7 @@ a {
   display: flex;
   flex-direction: column;
   width: 50%;
-  height: auto;
+  height: 100%;
   position: relative;
 }
 
@@ -1159,6 +1172,7 @@ a {
   font-size: 1rem;
   line-height: normal;
   color: #4c2884;
+  width: 100%;
 }
 
 .eight-socials {
@@ -1174,8 +1188,8 @@ i {
 
 .eight-content-bottom {
   width: 100%;
-  height: 100%;
-  border-top: solid #557c2e 10px;
+  height: 15vh;
+  border-top: solid #557c2e 5px;
   display: flex;
   flex-direction: row;
   position: relative;
@@ -1186,6 +1200,14 @@ i {
 .content-logo {
   height: 50%;
   position: relative;
+}
+
+.a-content-logo {
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 

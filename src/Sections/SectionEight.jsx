@@ -23,8 +23,8 @@ export const SectionEight = () => {
                 <div className="eight-content-bottom" >
                     <img className="content-logo" src="/voces.png" alt="" />
                     <img className="content-logo" src="/migrantas1.png" alt="" />
-                    <a href="https://idrc-crdi.ca/es" target="_blank" ><img className="content-logo" src="/canada.png" alt="" /></a>
-                    <a href="https://latinclima.org/" target="_blank" ><img className="content-logo" src="/latin.png" alt="" /></a>
+                    <a className="a-content-logo" href="https://idrc-crdi.ca/es" target="_blank" ><img className="content-logo" src="/canada.png" alt="" /></a>
+                    <a className="a-content-logo" href="https://latinclima.org/" target="_blank" ><img className="content-logo" src="/latin.png" alt="" /></a>
                 </div>
             </div>
         </section>
