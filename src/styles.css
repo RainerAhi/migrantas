@@ -890,10 +890,11 @@ a {
 .list-description {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: normal;
   color: #fefeff;
   text-align: center;
+  width: 75%;
 }
 
 .think-box {
@@ -1188,7 +1189,7 @@ i {
 
 .eight-content-bottom {
   width: 100%;
-  height: 15vh;
+  height: 10vh;
   border-top: solid #557c2e 5px;
   display: flex;
   flex-direction: row;
