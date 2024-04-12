@@ -97,6 +97,20 @@ export const SectionSix = () => {
             ))}
           </div>
         </div>
+        <div className="six-new-container" >
+          <div className="six-new-left" >
+            <img className="six-new-left-image" src="/photo_natalia2.png" />
+          </div>
+          <div className="six-new-right" >
+            <div className="six-right-box" >
+              <h1 className="six-right-text" >Un proyecto horizontal y participativo, donde la Universidad también aprende.</h1>
+            </div>
+            <audio className="six-right-audio" controls>
+              <source src="/audio3.mp3" type="audio/mp3" />
+            </audio>
+          </div>
+          <img className="sixnewbk" src="/sixbk.png" />
+        </div>
         <img src="/think-box2.png" className="think-box" />
         <div className="instagram-container">
           <div className="insta-posts">

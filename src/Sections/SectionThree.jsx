@@ -16,7 +16,7 @@ export const SectionThree = () => {
             </div>
           </div>
           <div className="three-bottom" >
-            <img src="/photo1.png" className="cloud" />
+            <img src="/photo_natalia1.png" className="cloud" />
             <div className="three-bottom-container" >
                 <h1 className="three-bottom-text" >“En el barrio la gente come, se viste y construye su casa de la basura. La basura no es vista tanto como un problema de contaminación, que lo es, sino más bien como un recurso para la supervivencia.”</h1>
                 <h1 className="three-bottom-text-small"  ><span className="bold" >Natalia Gavazzo</span><br/> Directora del proyecto de Migrantas en Reconquista</h1>

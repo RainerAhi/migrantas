@@ -240,6 +240,30 @@ export default function Animations() {
                           },
                         })
 
+                        .to(".six-new-left-image", {
+                          width: isMobile ? "100%" : "75%",
+                          opacity: 1,
+                            scrollTrigger: {
+                              trigger: ".six",
+                              start: isMobile ? "top bottom" : "top bottom",
+                              end: "center center",
+                              scrub: true,
+                              immediateRender: false,
+                            },
+                          })
+
+                          .to(".six-right-text", {
+                            opacity: 1,
+                            fontSize: isMobile ? "1rem" : "1.75rem",
+                              scrollTrigger: {
+                                trigger: ".six",
+                                start: isMobile ? "top bottom" : "top bottom",
+                                end: "center center",
+                                scrub: true,
+                                immediateRender: false,
+                              },
+                            })
+
                         .to(".six-main-green", {
                           fontSize: isMobile ? "1.5rem" : "2.25rem",
                             scrollTrigger: {

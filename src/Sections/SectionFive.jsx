@@ -13,6 +13,11 @@ export const SectionFive = () => {
                     </div>
                     <div className="five-top-left" >
                         <img className="photo4" src="/photo4.png" />
+                        <div className="five-audio-top" >
+                            <audio controls>
+                                <source src="/audio2.mp3" type="audio/mp3" />
+                            </audio>
+                        </div>
                     </div>
                 </div>
                 <div className="five-center" >
